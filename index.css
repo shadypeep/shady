@@ -1,0 +1,85 @@
+body{
+    background-image: url("project.jpg");  
+    background-size: 100%
+     
+}
+.nav{
+   height: 45px; width: 100%; background-color: rgb(174, 185, 179); display: flex; 
+}
+.nav p{
+margin-left: 450px;
+margin-bottom: 25px;
+}
+img{
+   width: 130px;
+   height: 130px;
+   border-radius: 50%;
+   align-items: center;  
+    
+}
+.header{
+    text-decoration-color: darkturquoise;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+   
+}
+.links{
+    display: flex;
+    padding-left: 30px;
+    
+}
+.intro{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.links div{
+    padding: 10px; margin: 80px; 
+    text-align: center;
+    display: table-cell;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    font: 18px "josefin sans", arial; 
+    
+}
+.careers{
+    text-align: center;
+}
+.careers h2{
+    height: 40px;
+    width:150px;
+    border-radius: 25px;
+    border-color: maroon;
+    border-style: double;
+    margin-left: 400px;
+}
+.fa:hover {
+    opacity: 1.7;
+}
+.connect{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+    margin-top: 70px;
+    font-size: 12px;
+    text-decoration-color: gainsboro;
+}
+    
+    
+    
+
+
+
+

@@ -1,0 +1,34 @@
+body{
+    background-image: url("tree.jpg");   
+}
+.nav{
+   height: 45px; width: 100%; background-color: rgb(174, 185, 179); display: flex; 
+}
+.nav p{
+margin-left: 450px;
+margin-bottom: 25px;
+}
+.container{
+    margin-left: 350px;
+    text-align: center;
+    height: 850px;
+    width: 400px;
+    background-image: url("project.jpg")
+    
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+    margin-top: 270px;
+    font-size: 12px;
+    text-decoration-color: gainsboro;
+}
+    
+    
+    
+
+
+
+
