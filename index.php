@@ -17,7 +17,7 @@ $row = mysqli_fetch_assoc($query);
     <title>My Project</title>
 </head>
 <link rel="stylesheet" href="index.css">
-<body>
+<body onload=loader();>
      <div class="nav">
          <h2>OLOTUSQUARE</h2>
          <P><a href="">HOME</a>  <a href="login.php">ADMIN</a>  <a href="">CONTACTS</a></P>
@@ -26,10 +26,39 @@ $row = mysqli_fetch_assoc($query);
     <div class="header">
         <h2>Hi, I'm <?php echo $row["name"];?></h2>
         <h3>&spades;I'm A Front-End Developer &spades; I'm the guy you're looking for. &spades; <br> &spades; I code from scratch to finish &spades; <br> &spades; Lets set up your page &spades;</h3>
-        <img src="tony.jpeg">
-        
+        <img class="profilepic" src="tony.jpeg">
+        <img id="lyk" src="like.png">
+        <p id="numlike">2</p>
     </div>
     
+
+    <div class="skills">
+        <h3>My skills</h3>
+            <p>HTML</p>
+        <div class="container">
+        <div class="skills html">90%</div>
+        </div>
+
+        <p>CSS</p>
+        <div class="container">
+        <div class="skills css">80%</div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="container">
+        <div class="skills js">40%</div>
+        </div>
+
+        <p>PHP</p>
+        <div class="container">
+        <div class="skills php">50%</div>
+        </div>
+
+
+
+
+
+    </div>
     
     <div class="intro">
         <p>If you're interested in our services.... <br> Why don't you check out what we're all about <br> click the links below to find out</p>
@@ -54,7 +83,7 @@ $row = mysqli_fetch_assoc($query);
 
     <div class="connect">
         <h3>connect with us and get updates about our services</h3>
-        <p>subscribe to our newsletter <input type="text"> <button>submit</button></p>
+        <p>subscribe to our newsletter <input type="email" name="email" placeholder="enter email">  <button>submit</button></p>
     </div>
     
 
@@ -64,7 +93,7 @@ $row = mysqli_fetch_assoc($query);
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
      <!-- Add font awesome icons -->
-     <a href="#" class="fa fa-facebook"></a>
+     <a href="https://www.facebook.com/raphjnr" class="fa fa-facebook"></a>
      <a href="#" class="fa fa-twitter"></a> 
      <a href="#" class="fa fa-slack"></a>
      <a href="#" class="fa fa-instagram"></a> 
@@ -73,7 +102,7 @@ $row = mysqli_fetch_assoc($query);
     </div>
      
 
-   
+  <script src="javascript.js"></script> 
 
 </body>
 </html>
